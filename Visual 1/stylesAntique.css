@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.nava a:hover{
+    color:aliceblue
+
+}
+@media(max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    .nava{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,10 @@
+.recuadro {
+    border: 2px solid #000; /* Borde del recuadro */
+    padding: 20px;          /* Espacio interno */
+    margin: 20px;           /* Espacio externo */
+    background-color: #83c2ec; /* Color de fondo */
+    border-radius: 10px;    /* Bordes redondeados */
+}
+h4{
+    color: blue;
+}

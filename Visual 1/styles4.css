@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.plan {
+    background-color: #83c2ec;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+    margin-top: 0;
+}
+
+.plan p {
+    color: #666;
+}
+.suscribete{
+    text-align: center;
+}
+
+.Elmejor{
+    color: #44c744; /* Verde brillante */
+}

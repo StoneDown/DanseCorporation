@@ -1,0 +1,12 @@
+.nav1 a {
+    display: inline-block; /* Para que los enlaces se comporten como bloques en línea */
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 5px; /* Espaciado externo */
+    border: 2px solid #000; /* Borde del recuadro */
+    text-decoration: none; /* Quitar subrayado */
+    color: #000; /* Color del texto */
+}
+
+.nav1 a:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el ratón */
+}
