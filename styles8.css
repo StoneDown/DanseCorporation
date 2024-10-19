@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+.recuadro {
+    border: 2px solid #000; /* Borde del recuadro */
+    padding: 20px;          /* Espacio interno */
+    margin: 20px;           /* Espacio externo */
+    background-color: #83c2ec; /* Color de fondo */
+    border-radius: 10px;    /* Bordes redondeados */
+}
+.recuadro2 {
+    border: 2px solid #000; /* Borde del recuadro */
+    padding: 20px;          /* Espacio interno */
+    margin: 20px;           /* Espacio externo */
+    background-color: #83c2ec; /* Color de fondo */
+    border-radius: 10px;    /* Bordes redondeados */
+}
+.recuadro3 {
+    border: 2px solid #000; /* Borde del recuadro */
+    padding: 20px;          /* Espacio interno */
+    margin: 20px;           /* Espacio externo */
+    background-color: #83c2ec; /* Color de fondo */
+    border-radius: 10px;    /* Bordes redondeados */
+}
+.recuadro4 {
+    border: 2px solid #000; /* Borde del recuadro */
+    padding: 20px;          /* Espacio interno */
+    margin: 20px;           /* Espacio externo */
+    background-color: #83c2ec; /* Color de fondo */
+    border-radius: 10px;    /* Bordes redondeados */
+}
