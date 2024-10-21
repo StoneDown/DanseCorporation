@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="styles10.css">
+    <link rel="stylesheet" href="styles8.css">
+    <title>Comentarios</title>
 </head>
 <body>
-    
+    <header>
+        <a href="#" class="logo2">
+            <img src="logo.png" alt="logo de la compañía" class="logo-img" width="200" height="200">
+            <h2 class="nombre-empresa">Danse Corporation</h2>
+        </a>
+        <nav>
+            <a href="Index.html" class="nav-link">Inicio</a>
+            <a href="SobreNosotros.html" class="nav-link">Sobre nosotros</a>
+            <a href="Contacto.html" class="nav-link">Contáctenos</a>
+            <a href="Idioma.html" class="nav-link">Idioma</a>
+        </nav>
+    </header>
+        <h1>Comentarios</h1>
+    <button id="capturar">Enviar Comentario</button>
+    <p id="resultado"></p>
+
+    <script>
+    //Crear objeto mascota
+    const comentario={};
+    const mascota={};
+
+    //función para capturar las propiedades
+    function capturarMascota() {
+        //pedir al usuario que ingrese las propiedades
+        comentario.nombre = prompt("Escribe tu nickname aquí");
+        comentario.tipo = prompt("Escribe tu comentario aquí");
+
+        //mostrar los detalles de la mascota
+        mostrarDetalles();
+    }
+
+    //función para mostrar los detalles de la mascota
+    function mostrarDetalles() {
+        const resultado = document.getElementById("resultado");
+        resultado.innerHTML = `
+        <strong>Detalles de tu mascota</strong><br>
+        ${comentario.nombre} dijo: ${comentario.tipo}<br>
+        `;
+    }
+
+    //agregar evento al botón
+    document.getElementById("capturar").addEventListener("click", capturarMascota);
+    </script>
 </body>
 </html>
