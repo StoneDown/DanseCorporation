@@ -36,7 +36,7 @@
         // Mostrar comentarios guardados al cargar la página
         function mostrarComentarios() {
             const resultado = document.getElementById("resultado");
-            resultado.innerHTML = "<strong>Detalles de las mascotas:</strong><br>";
+            resultado.innerHTML = "<strong>Detalles de los comentarios:</strong><br>";
             comentariosGuardados.forEach(comentario => {
                 resultado.innerHTML += `${comentario.nombre} dijo: ${comentario.tipo}<br>`;
             });
