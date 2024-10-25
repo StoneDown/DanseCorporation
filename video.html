@@ -87,7 +87,7 @@
         <br>
         <button onclick="appendDigit(4)">4</button>
         <button onclick="appendDigit(5)">5</button>
-        <button onclick="appendDigit(6)">6"></button>
+        <button onclick="appendDigit(6)">6</button>
         <br>
         <button onclick="appendDigit(7)">7</button>
         <button onclick="appendDigit(8)">8</button>
@@ -102,7 +102,7 @@
 
 <div id="content" style="display:none;">
     <video id="video" controls>
-        <source id="videoSrc" src="https://drive.google.com/uc?export=download&id=1qm1qxghEOM4DBaRQoBWtAf8gvPT3fOfi" type="video/mp4">
+        <source id="videoSrc" src="" type="video/mp4">
     </video>
     <br>
     <select class="selector" onchange="changeVideo(this.value)">
@@ -157,9 +157,9 @@
 
     function changeVideo(lang) {
         const videoSrc = {
-            'es': 'https://youtu.be/Kt4xWcPn9xw',
-            'fr': 'https://youtu.be/5AiO36sKcPY',
-            'en': 'https://youtu.be/_U2XYyv3aU8'
+            'es': 'DanseIntroductionVideo.mp4',
+            'fr': 'DanseIntroductionVideoFrancés.mp4',
+            'en': 'DanseIntroductionVideoEnglish.mp4'
         };
         document.getElementById('videoSrc').src = videoSrc[lang];
         document.getElementById('video').load();
