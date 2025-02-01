@@ -20,3 +20,4 @@ function nextImage() {
 function prevImage() {
     showImage(currentIndex - 1);
 }
+//Archivo html para el carrusel de imágenes del inicio de página.
